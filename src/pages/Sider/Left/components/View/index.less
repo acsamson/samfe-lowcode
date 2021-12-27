@@ -1,0 +1,47 @@
+.main {
+  height: calc(100vh - 56px - var(--header_height));
+  min-height: 300px;
+  overflow: auto;
+  :global {
+    .rst__moveHandle, .rst__loadingHandle {
+      width: 20px;
+      background-color: #adadad;
+    }
+    .rst__rowContents {
+      min-width: 155px;
+      padding: 0;
+    }
+    .rst__rowLabel {
+      padding: 0;
+    }
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.btn {
+  margin-right: 8px;
+}
+.tag {
+  margin: 4px 0;
+}
+.tree_node {
+  padding: 0;
+}
+.tree_node_selected {
+    padding: 2px;
+    box-shadow: 0 0 10px 1px red;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+.tree_header {
+  flex: 0 0 auto;
+  padding: 0 15px;
+  height: 80px;
+}
+.tree_container {
+  height: calc(100% - 80px);
+  min-height: 300px;
+}

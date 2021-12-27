@@ -14,5 +14,5 @@
       "@tmp/*": ["src/pages/.umi/*"]
     },
     "allowSyntheticDefaultImports": true
-  }
+  },
 }

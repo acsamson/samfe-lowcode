@@ -1,0 +1,35 @@
+.main {
+  height: 100%;
+  background-color:antiquewhite;
+  :global {
+    .ant-tabs {
+      height: 100%;
+      background-color: #f0f2f5;
+    }
+    .ant-tabs-left > .ant-tabs-nav, .ant-tabs-right > .ant-tabs-nav, .ant-tabs-left > div > .ant-tabs-nav, .ant-tabs-right > div > .ant-tabs-nav {
+      width: 48px;
+      min-width: 48px;
+    }
+    // .ant-tabs .ant-tabs-left-bar .ant-tabs-tab {
+    //   padding: 0;
+    // }
+    .ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane, .ant-tabs-left > div > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+      padding: 0;
+    }
+    .ant-tabs-left > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-right > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-left > div > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-right > div > .ant-tabs-nav .ant-tabs-tab {
+      padding: 0;
+    }
+  }
+}
+.sider {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sider_item {
+  margin: 0 8px;
+  cursor: pointer;
+}
+.content {
+  background-color:antiquewhite;
+}

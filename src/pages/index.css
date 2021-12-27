@@ -1,0 +1,22 @@
+.main {
+  height: var(--main_height);
+  font-family: Georgia, sans-serif;
+}
+.header {
+  height: var(--header_height);
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+.footer {
+  padding: 0;
+}
+.content_layout {
+  height: 100%;
+  background-color: #fff;
+}
+.content {
+  position: relative;
+  height: calc(100vh - var(--header_height));
+}
+
